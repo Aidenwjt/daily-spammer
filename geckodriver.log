@@ -77,7 +77,8 @@ DevTools listening on ws://localhost:4182/devtools/browser/a05dc762-93eb-44ef-aa
 1652498757548	Marionette	INFO	Listening on port 4203
 Read port: 4203
 1652498757655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1652498849212	geckodriver	INFO	Listening on 127.0.0.1:4250
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:4250
 1652498852249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4251" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofileAvniaV"
 1652498852448	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofileAvniaV\\search.json.mozlz4", (void 0)))
@@ -96,7 +97,8 @@ DevTools listening on ws://localhost:4301/devtools/browser/af92f62f-e8c9-4079-bd
 Read port: 4322
 1652498893931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
-1652499035723	geckodriver	INFO	Listening on 127.0.0.1:4370
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:4370
 1652499038749	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofilef5k4CF"
 1652499038945	Marionette	INFO	Marionette enabled
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofilef5k4CF\\search.json.mozlz4", (void 0)))
@@ -123,3 +125,26 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1652500079214	geckodriver	INFO	Listening on 127.0.0.1:4665
+1652500082246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofile2c3exA"
+1652500082443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofile2c3exA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:4666/devtools/browser/3a72796e-be2d-42c0-8b83-d201e94a6f3d
+1652500083688	Marionette	INFO	Listening on port 4688
+Read port: 4688
+1652500083790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://noah.binaryfox.ca"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://noah.binaryfox.ca"
+1652500088736	Marionette	INFO	Stopped listening on port 4688
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1652500128992	geckodriver	INFO	Listening on 127.0.0.1:4715
+1652500132022	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "4716" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofileaeuT6o"
+1652500132221	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\aiden\\AppData\\Local\\Temp\\rust_mozprofileaeuT6o\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:4716/devtools/browser/48646e1e-0ad9-4def-a3d1-0c782fe7e060
+1652500133462	Marionette	INFO	Listening on port 4737
+Read port: 4737
+1652500133570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://noah.binaryfox.ca"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://noah.binaryfox.ca"
+1652500134230	Marionette	INFO	Stopped listening on port 4737

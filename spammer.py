@@ -12,3 +12,5 @@ elem.send_keys('You suck at league of legends')
 
 search_btn = browser.find_element(By.NAME, 'submit')
 webdriver.ActionChains(browser).double_click(search_btn).perform()
+
+browser.close()
